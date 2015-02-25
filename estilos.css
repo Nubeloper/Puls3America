@@ -5,4 +5,10 @@ a
 body
 {
 	background: #EEEEEE;
+	font-family: Arial;
+	font-size: 16px;
+}
+header
+{
+	background: #342B54;
 }
