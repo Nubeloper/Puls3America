@@ -109,7 +109,8 @@ footer p:last-child
 	border-bottom: 3px #22BCE0 solid;
 	min-height: 128px;
 	position: relative;
-	margin-bottom: 2em;
+	margin-bottom: 3em;
+
 }
 #contenido .item .imagen_item
 {
@@ -127,7 +128,8 @@ footer p:last-child
 	font-size: 1.2em;
 	font-style: italic;
 	color: #444;
-	text-decoration: none;
+	padding: 0.2em 0.5em;
+	padding-top: 1em;
 }
 #contenido .item .autor_item
 {
@@ -153,8 +155,14 @@ footer p:last-child
 #contenido .item .votacion
 {
 	position: absolute;
-	left: 0;
-	top: 100;
+	left: 5%;
+	top: 128px;
+	text-decoration: none;
+	background: white;
+	width: 90%;
+	margin-top: 3px;
+	padding: 0.2em 0.5em;
+	border-radius: 0em 0em 0.5em 0.5em;
 }
 
 
