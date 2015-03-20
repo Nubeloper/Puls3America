@@ -63,7 +63,7 @@ nav ul li a
 {
 	color: white;
 	display: block;
-	padding: 0.5em 0;
+	padding: 0.5em 0.2em;
 }
 nav ul #publicar_nav 
 {
@@ -83,14 +83,79 @@ nav ul #publicar_nav a
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
 	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
 }
+footer
+{
+	background: #22BCE0;
+	padding: 1em;
+	text-align: center;
+	color: rgba(255,255,255, 0.825);
+}
+footer p:first-child
+{
+	margin-bottom: 0em;
+}
+footer p:last-child
+{
+	margin-top: 0em;
+}
+#contenido
+{
+	margin: 1em;
 
+}
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px #22BCE0 solid;
+	min-height: 128px;
+	position: relative;
+	margin-bottom: 2em;
+}
+#contenido .item .imagen_item
+{
+	float: left;
+	margin: 0;
+	margin-top: 0;
+}
+#contenido .item .imagen_item img
+{
+	width: 96px;
+	margin-right: 1em;
+}
+#contenido h2
+{
+	font-size: 1.2em;
+	font-style: italic;
+	color: #444;
+	text-decoration: none;
+}
+#contenido .item .autor_item
+{
+	color: #AAA;
+}
+#contenido .item .datos_item
+{
+	margin: 1em 1em 0.5em 0.5em;
+	text-align: right;
+	color: #AAA;
 
-
-
-
-
-
-
+}
+#contenido .item .datos_item .tag_item
+{
+	background: #F4502A;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.2em 0.4em;
+	border-radius: 0.5em;
+	color: white;
+	float: left;
+}
+#contenido .item .votacion
+{
+	position: absolute;
+	left: 0;
+	top: 100;
+}
 
 
 
