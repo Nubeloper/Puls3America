@@ -31,11 +31,6 @@
 .icon-Guardaritem:before {
 	content: "\e601";
 	color: #FFBE2C;
-	margin-right: 0.4em;
-	margin-left: 0.4em;
-	position: relative;
-	left: 43em;
-
 }
 
 .icon-flechaarriba:before {
@@ -207,17 +202,14 @@ footer p:last-child
 #contenido .item .votacion
 {
 	position: absolute;
-	left: 5%;
-	top: 128px;
-	text-decoration: none;
+	left: 1%;
+	top: 100%;
 	background: white;
 	width: 90%;
 	margin-top: 3px;
 	padding: 0.2em 0.5em;
 	border-radius: 0em 0em 0.5em 0.5em;
-	text-align: left;
-
-	
+	width: 95%;
 }
 #contenido .item .votacion .up
 {
@@ -232,15 +224,17 @@ footer p:last-child
 #contenido .item .votacion .comentarios_item
 {
 	text-decoration: none;
-	position: relative;
-	left: 43em;
 }
 #contenido .item .votacion .guardar_item
 {
 	text-decoration: none;
 }
 
+@media screen and (min-width: 800px){
+ body{
+ 	background: red;
 
+};
 
 
 
