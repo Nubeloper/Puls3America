@@ -18,7 +18,7 @@
 	text-transform: none;
 	line-height: 1;
 
-	/* Better Font Rendering =========== */
+	/* =========== Mejorar renderizado de las fuentes =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -74,16 +74,15 @@ header #logo
 		margin-right: 0.5em;
 		margin-left: 0.5em;
 }
-
 header #logo img
 {
 	width: 52px;
 	margin-right: 0.5em;
 	padding-right: 0.5em;
-	-webkit-transition:0.5s;
 }
 header #logo img:hover{
 	-webkit-transform:rotate(360deg);
+	-webkit-transition:0.5s;
 }
 header #avatar img
 {
@@ -100,7 +99,7 @@ header figure
 }
 nav
 {
-	background: #80BCA3;
+	background: #4A7C59;
 	position: relative;
 	padding: 0 6em;
 
@@ -127,7 +126,7 @@ nav ul #publicar_nav
 {
 
 	position: absolute;
-	top: -0.22em;
+	top: -0.30em;
 	right: 0;
 	padding: 0.15em;
 }
@@ -213,6 +212,16 @@ footer p:last-child
 	color: #AAA;
 
 }
+#contenido .item .fecha_item
+{
+    color: #68B0AB;
+    position: absolute;
+    left: 89%;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+    top: 75%;
+}
 #contenido .item .datos_item .tag_item
 {
 	background: #F4502A;
@@ -250,6 +259,7 @@ footer p:last-child
 	text-decoration: none;
 	float: right;
 	margin-left: 0.5em;
+    color: indianred;
 }
 #contenido .item .votacion .guardar_item
 {
@@ -258,8 +268,31 @@ footer p:last-child
 	margin-top: 0.1em;
 }
 
+/** Formulario **/
 
-
+.formulario
+{
+	padding: 1em;
+	text-align: right;
+	display: none;
+}
+.formulario input
+{
+	border: 1px;
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+}
+.formulario input[type=submit]
+{
+  background: #22BCE0;
+  padding: 0.3em 0.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-style: italic;
+  text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+  box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+  color: white;
+}
 
 
 

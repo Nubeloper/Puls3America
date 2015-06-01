@@ -32,15 +32,43 @@
 				<a href="#" class="icon-publicar">Publicar</a></li>
 				</ul>			
 			</nav>
-
+			<form action="" id="formulario" class="formulario"> 
+				<input type="text" id="título" placeholder="Título" required>
+				<input id="url" placeholder="Link"required>
+				<input type="submit" value="Enviar">
+			</form>
+			
 			<section id="contenido">
 			<article class="item">
 				<figure class="imagen_item ">
 					<img src="imagen.jpg">
 				</figure>
 				<h2>Título del articulo</h2>
-				<div class="autor_item">Por <a href="#">Franandrade</div>
-				<div class= "datos_item"><a href="#" class="tag_item">@Franserrato12</a>
+				<div class="autor_item">Por <a href="https://twitter.com/Franserrato12">@Franserrato12</div>
+				<div><span class="fecha_item"><style type="text/css">   
+                        a:link   
+                        {   
+                        text-decoration:none;   
+                        } </style>
+                        hace 
+                        <strong>5</strong>
+                        min
+                    </span>
+				</div>
+				<div class="votacion">
+						<a href="#" class="up icon-flechaarriba"></a> 720
+						<a href="#" class="down icon-flechaabajo"></a>
+						<a href="#" class="comentarios_item">3</a>
+						<a href="#" class="guardar_item icon-Guardaritem"></a>
+				</div>
+			</article>
+			<article class="item">
+				<figure class="imagen_item ">
+					<img src="imagen.jpg">
+				</figure>
+				<h2>Título del articulo </h2>
+				<div class="autor_item">Por <a href="https://twitter.com/Franserrato12">@Franserrato12</div>
+			
 					<span class="fecha_item">hace <strong>5</strong> min</span>
 				</div>
 				<div class="votacion">
@@ -55,8 +83,8 @@
 					<img src="imagen.jpg">
 				</figure>
 				<h2>Título del articulo </h2>
-				<div class="autor_item">Por <a href="#">Franandrade</div>
-				<div class= "datos_item"><a href="#" class="tag_item">@Franserrato12</a>
+				<div class="autor_item">Por <a href="https://twitter.com/Franserrato12">@Franserrato12</div>
+				
 					<span class="fecha_item">hace <strong>5</strong> min</span>
 				</div>
 				<div class="votacion">
@@ -71,8 +99,8 @@
 					<img src="imagen.jpg">
 				</figure>
 				<h2>Título del articulo </h2>
-				<div class="autor_item">Por <a href="#">Franandrade</div>
-				<div class= "datos_item"><a href="#" class="tag_item">@Franserrato12</a>
+				<div class="autor_item">Por <a href="https://twitter.com/Franserrato12">@Franserrato12</div>
+			
 					<span class="fecha_item">hace <strong>5</strong> min</span>
 				</div>
 				<div class="votacion">
@@ -87,8 +115,8 @@
 					<img src="imagen.jpg">
 				</figure>
 				<h2>Título del articulo </h2>
-				<div class="autor_item">Por <a href="#">Franandrade</div>
-				<div class= "datos_item"><a href="#" class="tag_item">@Franserrato12</a>
+				<div class="autor_item">Por <a href="https://twitter.com/Franserrato12">@Franserrato12</div>
+				
 					<span class="fecha_item">hace <strong>5</strong> min</span>
 				</div>
 				<div class="votacion">
@@ -103,24 +131,8 @@
 					<img src="imagen.jpg">
 				</figure>
 				<h2>Título del articulo </h2>
-				<div class="autor_item">Por <a href="#">Franandrade</div>
-				<div class= "datos_item"><a href="#" class="tag_item">@Franserrato12</a>
-					<span class="fecha_item">hace <strong>5</strong> min</span>
-				</div>
-				<div class="votacion">
-						<a href="#" class="up icon-flechaarriba"></a> 720
-						<a href="#" class="down icon-flechaabajo"></a>
-						<a href="#" class="comentarios_item">3</a>
-						<a href="#" class="guardar_item icon-Guardaritem"></a>
-				</div>
-			</article>
-			<article class="item">
-				<figure class="imagen_item ">
-					<img src="imagen.jpg">
-				</figure>
-				<h2>Título del articulo </h2>
-				<div class="autor_item">Por <a href="#">Franandrade</div>
-				<div class= "datos_item"><a href="#" class="tag_item">@Franserrato12</a>
+				<div class="autor_item">Por <a href="https://twitter.com/Franserrato12">@Franserrato12</div>
+		
 					<span class="fecha_item">hace <strong>5</strong> min</span>
 				</div>
 				<div class="votacion">
@@ -138,6 +150,7 @@
 					</p>	
 					<p>- 2015 -</p>
 			</footer>
-
+			<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+			<script src="formulario.js"></script>
 	</body>
 </html>
